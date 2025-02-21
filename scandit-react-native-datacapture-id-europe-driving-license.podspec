@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.requires_arc            = true
   s.module_name             = "ScanditDataCaptureIdEuropeDrivingLicense"
   s.header_dir              = "ScanditDataCaptureIdEuropeDrivingLicense"
-  s.dependency 'ScanditIdEuropeDrivingLicense', '= 7.0.2'
+  s.dependency 'ScanditIdEuropeDrivingLicense', '= 7.1.0'
   s.source_files            = "ios/Sources/**/*.{h,m,swift}"
   s.dependency "React"
 end
