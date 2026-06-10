@@ -1,11 +1,15 @@
 {
   "name": "scandit-react-native-datacapture-id-europe-driving-license",
-  "version": "8.4.0",
+  "version": "8.1.5",
   "description": "ScanditIdEuropeDrivingLicense is a library that enables decoding of the back of European driving licenses.",
   "homepage": "https://github.com/Scandit/scandit-react-native-datacapture-id-europe-driving-license",
   "main": "index.js",
-  "flow": "index.js.flow",
-  "scripts": {},
+  "scripts": {
+    "test": "pnpm run lint",
+    "lint": "echo 'scandit-react-native-datacapture-id-europe-driving-license does not have TS files to lint'",
+    "build": "echo 'scandit-react-native-datacapture-id-europe-driving-license does not have TS files to build'",
+    "start": "pnpm run build"
+  },
   "keywords": [
     "scandit",
     "react-native"
